@@ -2,9 +2,41 @@ body {
     background-color: #000000;
     
 }
+
 .navigation {
     display: inline-flex;
     flex-wrap: inherit;
+}
+
+
+.navlinks {
+  color: white;
+  font-size: 15px;
+  position: relative;
+  margin-top: 18px;
+  display: inline;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  margin-left: 300px;
+  word-spacing: 150px;
+}
+
+.navlinks a {
+text-decoration: none;
+color: white;
+font-size: 15px;
+border: 1px solid black;
+padding: 5px 15px;
+border-radius: 15px;
+}
+
+.navlinks a:hover {
+color: white;
+font-size: 15px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+border-radius: 15px;
 }
 
 .href {
@@ -13,8 +45,9 @@ body {
     background-color: #ffffff;
     padding: 2px 5px;
     margin-top: 10px;
-    margin-left: 1200px;
+    margin-left: 350px;
     border-radius: 15px;
+    position: relative;
 }
 
 .github {
@@ -36,34 +69,60 @@ body {
 
 .main { 
   position: relative;
-  top: 50px;
+  top: 100px;
   display: flex;
+}
+
+.hr {
+  opacity: 70%;
 }
 
 .potrait img {
   filter: grayscale(100%);
-  left: 1150px;
+  left: 1100px;
   position: relative;
-  bottom: 80px;
+  bottom: 270px;
 
 }
 
 .name {
-  top: 100px;
-  left: 300px;
+  top: 0px;
+  right: 350px;
   position: relative;
   color: #ffffff;
-}
-
-
-p {
-  color: #ffffff;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: roboto;
   text-align: center;
 }
 
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+
+h4 {
+  color: white;
+  position: relative;
+  font-family: cursive;
+  text-align: center;
+  justify-content: center;
+  right: 350px;
+  top: 100px;
+  font-weight: 100;
+}
+
+p {
+  color: #ffffff;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 300;
+}
+
 .words {
-  top: 150px;
+  top: 100px;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -74,6 +133,7 @@ p {
   margin-right: 700px;
   margin-left: 50px;
 }
+
 
 
 
