@@ -81,11 +81,18 @@ border-radius: 15px;
   filter: grayscale(100%);
   left: 1100px;
   position: relative;
-  bottom: 300px;
+  bottom: 554px;
 }
 
 .potrait:hover {
-  background-image: url("resources/images/IN.png");
+  opacity: 5%;
+}
+
+.in {
+
+  left: 1100px;
+  position: relative;
+  bottom: 300px;
 }
 
 .name {
